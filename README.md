@@ -6,6 +6,7 @@ This repository contains code for running our website, our datasets, and other r
 
 ## Hype Video
 
+https://github.com/Blueace-609/quality-quesadillas/assets/141577313/2a7ae705-257e-40ed-8aaf-e9961484b4c5
 
 
 ## Potential Roadmap
