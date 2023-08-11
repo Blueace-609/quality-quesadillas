@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results</title>
+  <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+  <nav>
+    <img src="./static/pictures/Quality_Quesadillas.png">
+    <ul>
+        <div>
+            <form action = "/">  
+            <!-- <input type="file" name="file" />  
+            <input type = "submit" value="Upload">   -->
+    
+              <button>Home</button>
+              
+            </div>
+            </form>  
+          </div>
+          <div>
+            <form action = "/product">  
+            <!-- <input type="file" name="file" />  
+            <input type = "submit" value="Upload">   -->
+    
+              <button>Our Product</button>
+              
+            </div>
+            </form>  
+          </div>
+          <div>
+            <form action = "/us">  
+            <!-- <input type="file" name="file" />  
+            <input type = "submit" value="Upload">   -->
+    
+              <button>About Us</button>
+              
+            </div>
+            </form>  
+          </div>
+    </ul>
+</nav>
+  <div class="app-wrapper">
+   
+    <div class='box-cont'>
+      <h1 class="header">
+        Results
+      </h1>
+
+      <div class="selected-img-wrapper">
+        <img src="{{ url_for('static', filename='images/'+img) }}" alt="" class="selected-img" />
+        <ul>
+          <li>
+        <p class="response"> {{name[0]}}: {{name[1]}}% confidence</p>
+        <p class="response"> {{name[2]}}: {{name[3]}}% confidence</p>
+        <p class="response"> {{name[4]}}: {{name[5]}}% confidence</p>
+      </li>
+      <div>
+        <form action = "/talk">  
+        <!-- <input type="file" name="file" />  
+        <input type = "submit" value="Upload">   -->
+
+          <button class="try_again">Try Again</button>
+          
+        </div>
+
+        </ul>
+      
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

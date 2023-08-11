@@ -1,0 +1,96 @@
+0<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <img src="../logo.png">
+        <ul>
+            <div>
+                <form action = "/">  
+                <!-- <input type="file" name="file" />  
+                <input type = "submit" value="Upload">   -->
+        
+                  <button>Home</button>
+                  
+                </div>
+                </form>  
+              </div>
+              <div>
+                <form action = "/product">  
+                <!-- <input type="file" name="file" />  
+                <input type = "submit" value="Upload">   -->
+        
+                  <button>Our Product</button>
+                  
+                </div>
+                </form>  
+              </div>
+              <div>
+                <form action = "/us">  
+                <!-- <input type="file" name="file" />  
+                <input type = "submit" value="Upload">   -->
+        
+                  <button>About Us</button>
+                  
+                </div>
+                </form>  
+              </div>
+        </ul>
+    </nav>
+    <!-- <header>
+        <div class="slides">
+            <div id = "b" class="slide"></div>
+            <div id = "c" class="slide"></div>
+            <div id = "d" class="slide"></div>
+            <div id = "e" class="slide"></div>
+            <div id = "f" class="slide"></div>
+        </div>
+    </header> -->
+    <!-- <div class = "row">
+        <div class="item">
+            <div class="card">
+                <h1>1.</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <h1>2.</h1>
+            </div>
+        </div>
+    </div> -->
+    <!-- <video width="320" height="240" autoplay muted>
+        <source src="movie.mp4" type="video/mp4">
+    </video>       -->
+    <body>
+        <div class="app-wrapper">
+          
+          <div class='box-cont'>
+            <h1 class="header">
+              GREG
+            </h1>
+      
+           
+            <div>
+              <form action = "/predict" method = "post" enctype="multipart/form-data">  
+              <!-- <input type="file" name="file" />  
+              <input type = "submit" value="Upload">   -->
+      
+                <div class="file-upload">
+                <label for="file-input" class="file-input-label"> Choose a file</label>
+                <input id="file-input" type="file" class="file-input" name="file" accept="image/jpeg, image/png">
+                <button type="submit" class="upload-button">Predict</button>
+                
+              </div>
+              </form>  
+            </div>
+          </div>
+        </div>
+      </body>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

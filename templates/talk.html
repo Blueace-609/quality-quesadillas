@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="./static/pictures/Quality_Quesadillas.png" alt="Logo">
+        <ul>
+            <li>
+                <form action="/">
+                    <button>Home</button>
+                </form>
+            </li>
+            <li>
+                <form action="/product">
+                    <button>Our Product</button>
+                </form>
+            </li>
+            <li>
+                <form action="/us">
+                    <button>About Us</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <body>
+    <div class="app-wrapper">
+        <div class="box-cont">
+            <h1 class="header">Presenting: GREG</h1>
+
+            <form action = "/predict" method = "post" enctype="multipart/form-data">
+              <div class="app-container">
+                <div class="image-upload">
+                  <input id="file-input" type="file" class="file-input" name="file" accept="image/jpeg, image/png">
+                    <img id="uploaded-image" src="#" alt="Uploaded Image">
+                </div>
+                <button type="submit" class="upload-button">Predict</button>
+            </div>
+          </form>>
+        </div>
+    </div>
+    </body>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
